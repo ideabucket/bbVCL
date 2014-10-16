@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-	"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BBEditDocumentType</key>
-	<string>CodelessLanguageModule</string>
-	<key>BBLMLanguageCode</key>
-	<string>vVCL</string>
-	<key>BBLMLanguageDisplayName</key>
-	<string>Varnish Configuration Language</string>
+  <key>BBEditDocumentType</key>
+  <string>CodelessLanguageModule</string>
+  <key>BBLMLanguageCode</key>
+  <string>vVCL</string>
+  <key>BBLMLanguageDisplayName</key>
+  <string>Varnish Configuration Language</string>
 
-	<key>BBLMSuffixMap</key>
-	<array>
-		<dict>
-			<key>BBLMLanguageSuffix</key>
-			<string>.vcl</string>
-		</dict>
-	</array>
-	<key>BBLMPreferredFilenameExtension</key>
+  <key>BBLMSuffixMap</key>
+  <array>
+    <dict>
+      <key>BBLMLanguageSuffix</key>
+      <string>.vcl</string>
+    </dict>
+  </array>
+  <key>BBLMPreferredFilenameExtension</key>
   <string>.vcl</string>
 
-	<key>BBLMColorsSyntax</key> <true/>
+  <key>BBLMColorsSyntax</key> <true/>
 
-	<key>BBLMIsCaseSensitive</key> <false/>
-	
-	<key>BBLMCommentLineDefault</key>
-	<string>#</string>
-	
-	<key>BBLMCommentPrefixDefault</key>
-	<string>/* </string>
-	
-	<key>BBLMCommentSuffixDefault</key>
-	<string> */</string>
+  <key>BBLMIsCaseSensitive</key> <false/>
+  
+  <key>BBLMCommentLineDefault</key>
+  <string>#</string>
+  
+  <key>BBLMCommentPrefixDefault</key>
+  <string>/* </string>
+  
+  <key>BBLMCommentSuffixDefault</key>
+  <string> */</string>
 
-	<key>BBLMKeywordList</key>
-	<array>
+  <key>BBLMKeywordList</key>
+  <array>
     <string>acl</string>
     <string>backend</string>
     <string>call</string>
@@ -54,15 +54,15 @@
     <string>sub</string>
     <string>synthetic</string>
     <string>unset</string>
-	</array>
+  </array>
 
-	<key>BBLMScansFunctions</key> <true/>
+  <key>BBLMScansFunctions</key> <true/>
 
   <key>Language Features</key>
-	<dict>
-	  <key>Identifier and Keyword Characters</key>
-	  <string>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
-	  
+  <dict>
+    <key>Identifier and Keyword Characters</key>
+    <string>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
+    
     <key>Open Block Comments</key>
     <string>/*</string>
 
@@ -101,5 +101,5 @@
     <key>End-of-line Ends Strings 1</key>   <false />
 
   </dict>
-</dict>	
+</dict> 
 </plist>
